@@ -1,0 +1,22 @@
+{
+    "name": "sjkpSharepointAppTs",
+    "version": "0.0.0",
+    "dependencies": {
+        "jquery": "^2.1.4",
+        "angular": "^1.4.4",
+        "angular-ui-router": "^0.2.15",
+        "adal-angular": "*",
+        "moment": "^2.10.6",
+        "toastr": "^2.1.2"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "wwwroot/vendor",
+        "test",
+        "tests"
+    ]
+}
+
+

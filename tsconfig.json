@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "removeComments": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "out": "wwwroot\\app.js"
+    },
+    "files": ["wwwroot/typings/tsd.d.ts", "wwwroot/app/app.module.ts",
+        "wwwroot/app/blocks/exception/exception.module.ts",
+        "wwwroot/app/blocks/log/log.module.ts",
+        "wwwroot/app/blocks/router/router.module.ts",
+        "wwwroot/app/core/core.module.ts",
+        "wwwroot/app/home/home.module.ts",
+        "wwwroot/app/blocks/exception/exception-handler.provider.ts",
+        "wwwroot/app/blocks/exception/exception.ts",
+        "wwwroot/app/blocks/log/logger.ts",
+        "wwwroot/app/blocks/router/router-helper.provider.ts",
+        "wwwroot/app/core/config.ts", "wwwroot/app/core/constants.ts",
+        "wwwroot/app/core/core.adal.ts", "wwwroot/app/core/core.route.ts",
+        "wwwroot/app/core/notFound.controller.ts",
+        "wwwroot/app/home/home.controller.ts",
+        "wwwroot/app/home/home.route.ts"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "directory": "wwwroot/vendor",
+  "scripts": {
+      "postinstall": "gulp wiredep"
+  }
+}

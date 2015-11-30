@@ -1,7 +1,13 @@
 <h1>Test</h1>
 
 <p>{{vm.msg}}</p>
-
+<input type="text" ng-model="query" /><button ng-click="doSearch()">Search</button>
 <ul>
-	<li ng-repeat="list in lists">{{list.Title}}</li>
+	<li ng-repeat="res in searchResults" ng-click="selectWeb(res)">{{res.title}}</li>
+</ul>
+<ul>
+	<li ng-repeat="list in lists"><a ng-click="selectDoclib(list)">{{list.Title}}</a></li>
 </ul>	
+<ul>
+	<li ng-repeat="doc in docs">{{doc.Folder.Name}}</a>
+<ul>
